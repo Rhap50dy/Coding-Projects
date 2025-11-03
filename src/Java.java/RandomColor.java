@@ -24,15 +24,19 @@ public static void main(String[] args) () {
         RandomBrightnessGenerator = new RandomColorGenerator();
         RandomBrightness = generator.RandomBrightness();
         while (true) {
-                if (randomColorNumber == 1) {
-                            System.out.println ("System.setcolor (255, 0, 0);");
+                while (true) {
+                        if (randomColorNumber == 1) {
+                        System.out.println ("System.setcolor (255, 0, 0);");
                         } else if (randomColorNumber == 2) {
-                            System.out.println ("System.setcolor (255, 90, 0);");
+                        System.out.println ("System.setcolor (255, 90, 0);");
                         } else if (randomColorNumber == 3) {
-                            System.out.println ("System.setcolor (255, 232, 8);");
+                        System.out.println ("System.setcolor (255, 232, 8);");
                         } else {
-                            System.out.println ("System.setcolor (170, 66, 3);");
+                        System.out.println ("System.setcolor (170, 66, 3);");
                         }
+                        delay (500)
+                }
+                while (true) {
                 if (randomBrightnessNumber == 1) {
                                 System.out.println ("System.setbrightness (255);")                 
                         } else {
@@ -40,5 +44,4 @@ public static void main(String[] args) () {
                         }
                         delay (25);
                 }
-
         }
