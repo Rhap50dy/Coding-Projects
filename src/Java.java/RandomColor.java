@@ -1,8 +1,8 @@
 import java.util.Random;
 import package.lights.lightcontrol;
 
-int RandomBrightnessGenerator;
-int RandomColorGenerator;
+public int RandomBrightnessGenerator;
+public int RandomColorGenerator;
 
 public class RandomColorGenerator {
         Random random = new Random();
