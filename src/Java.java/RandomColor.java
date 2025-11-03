@@ -1,27 +1,29 @@
 import java.util.Random;
 
-bool true = true;
+bool constant = true;
+int RandomBrightnessGenerator;
+int RandomColorGenerator;
 
 public class RandomColorGenerator {
-        Random random = new RandomColor();
+        Random random = new Random();
         public int randomColorNumber () {
                 return random.nextInt(4) + 1; 
         }
     }
 
 public class RandomBrightnessGenerator {
-        Random random = new RandomBrightness();
+        Random random = new Random();
         public int randomBrightnessNumber () {
                 return random.nextInt(2) + 1; 
         }
     }
 
-public static main() {
-        RandomNumberGenerator = new RandomNumberGenerator(); 
+public static void main(String[] args) () {
+        randomColorNumber = new RandomColorGenerator(); 
         randomNumber = generator.RandomColor();
         RandomBrightnessGenerator = new RandomColorGenerator();
         RandomBrightness = generator.RandomBrightness();
-        while (true == true) {
+        while (constant == true) {
                  if (randomColorNumber == 1) {
                     System.out.println ("System.setcolor (255, 0, 0);");
                 } else if (randomColorNumber == 2) {
@@ -37,6 +39,6 @@ public static main() {
                         System.out.println ("System.setbrightness (190)")
                 }
                 delay (25);
-                
         }
+
 }
