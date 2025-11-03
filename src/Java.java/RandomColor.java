@@ -5,14 +5,14 @@ bool true = true;
 public class RandomColorGenerator {
         Random random = new RandomColor();
         public int randomColorNumber () {
-                random.nextInt(4) + 1; 
+                return random.nextInt(4) + 1; 
         }
     }
 
 public class RandomBrightnessGenerator {
         Random random = new RandomBrightness();
         public int randomBrightnessNumber () {
-                random.nextInt(2) + 1; 
+                return random.nextInt(2) + 1; 
         }
     }
 
