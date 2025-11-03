@@ -19,26 +19,26 @@ public class RandomBrightnessGenerator {
     }
 
 public static void main(String[] args) () {
-        randomColorNumber = new RandomColorGenerator(); 
+        randomColorNumber = new RandomColorGenerator();
         randomNumber = generator.RandomColor();
         RandomBrightnessGenerator = new RandomColorGenerator();
         RandomBrightness = generator.RandomBrightness();
         while (.isbuttonpressed == true) {
-                 if (randomColorNumber == 1) {
-                    System.out.println ("System.setcolor (255, 0, 0);");
-                } else if (randomColorNumber == 2) {
-                    System.out.println ("System.setcolor (255, 90, 0);");
-                } else if (randomColorNumber == 3) {
-                    System.out.println ("System.setcolor (255, 232, 8);");
-                } else {
-                    System.out.println ("System.setcolor (170, 66, 3);");
-                }
+                if (randomColorNumber == 1) {
+                            System.out.println ("System.setcolor (255, 0, 0);");
+                        } else if (randomColorNumber == 2) {
+                            System.out.println ("System.setcolor (255, 90, 0);");
+                        } else if (randomColorNumber == 3) {
+                            System.out.println ("System.setcolor (255, 232, 8);");
+                        } else {
+                            System.out.println ("System.setcolor (170, 66, 3);");
+                        }
                 if (randomBrightnessNumber == 1) {
-                        System.out.println ("System.setbrightness (255);")                 
-                } else {
-                        System.out.println ("System.setbrightness (190)")
+                                System.out.println ("System.setbrightness (255);")                 
+                        } else {
+                                System.out.println ("System.setbrightness (190)")
+                        }
+                        delay (25);
                 }
-                delay (25);
-        }
 
-}
+        }
