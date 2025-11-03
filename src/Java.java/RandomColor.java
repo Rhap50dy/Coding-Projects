@@ -1,5 +1,5 @@
 import java.util.Random;
-import package.lights.lightcontrol;
+//import package.lights.lightcontrol;
 
 public int RandomBrightnessGenerator;
 public int RandomColorGenerator;
@@ -23,7 +23,7 @@ public static void main(String[] args) () {
         randomNumber = generator.RandomColor();
         RandomBrightnessGenerator = new RandomColorGenerator();
         RandomBrightness = generator.RandomBrightness();
-        while (.isbuttonpressed == true) {
+        while (true) {
                 if (randomColorNumber == 1) {
                             System.out.println ("System.setcolor (255, 0, 0);");
                         } else if (randomColorNumber == 2) {
