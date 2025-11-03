@@ -16,7 +16,7 @@ public class RandomBrightnessGenerator {
         }
     }
 
-public static void main() {
+public static main() {
         RandomNumberGenerator = new RandomNumberGenerator(); 
         randomNumber = generator.RandomColor();
         RandomBrightnessGenerator = new RandomColorGenerator();
