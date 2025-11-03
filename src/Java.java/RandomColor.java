@@ -13,7 +13,7 @@ public static void main() {
             System.out.println ("System.setcolor (255, 90, 0);");
         } else if (randomNumber == 3) {
             System.out.println ("System.setcolor (255, 232, 8);");
-        } else if (randomNumber == 4) {
+        } else {
             System.out.println ("System.setcolor (170, 66, 3);");
         }
 }
