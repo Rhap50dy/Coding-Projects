@@ -1,7 +1,6 @@
 package com.fire;
 import java.util.Random;
 
-
 public class RandomColorGenerator {
     Random random = new Random();
     public int randomColorNumber() {
