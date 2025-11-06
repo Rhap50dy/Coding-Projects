@@ -1,11 +1,11 @@
 package com.fire;
-//import package.lights.lightcontrol;
 
 public class Main {
     public static void main(String[] args) {
         int counter = 0;
         RandomBrightnessGenerator brightnessGenerator = new RandomBrightnessGenerator();
         RandomColorGenerator colorGenerator = new RandomColorGenerator();
+        counter ++;
         
         while(true) {
             int randomColor = colorGenerator.randomColorNumber();
@@ -34,8 +34,6 @@ public class Main {
             } catch (InterruptedException exception) {
                 break;
             }
-            counter ++;
         }
     }
-        //Potential robot led code? just change the syntax a bit. 
 }
