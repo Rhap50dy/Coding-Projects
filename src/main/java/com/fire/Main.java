@@ -10,6 +10,7 @@ public class Main {
         while(true) {
             int randomColor = colorGenerator.randomColorNumber();
             int randomBrightness = brightnessGenerator.randomBrightnessNumber();
+            
             if (counter == 20) {
                 counter = 0;
                 if(randomColor == 1) {
